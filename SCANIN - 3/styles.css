@@ -1,0 +1,419 @@
+  body{
+    margin:0;
+    padding:0;
+    /* font-family: Arial,Helvetica,sans-serif; */
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+.topnav {
+  padding-left: 20px;
+  padding-top: 20px;
+   
+   
+}
+
+.phone{
+    display: none;
+}
+
+
+
+@media (min-width:700px) {
+.first-content {
+display: grid;
+justify-items:left;
+padding-left: 15px;
+padding:40px;
+grid:1fr/60% 40%;
+}
+
+section:nth-of-type(1) {
+    padding-left: 15%;
+}
+
+
+.phone{
+   display: inherit;
+  height:450px;
+  z-index: 1;
+  padding-left: 30px;
+  
+  vertical-align: middle;
+}
+
+.image-section {
+   align-content: end;
+   padding-top: 15px;
+   align-content: center;
+   align-items:center;
+   justify-items: center;
+  
+   justify-content: center;
+}
+.first-content h3  {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 1000;
+    color: white;
+    padding-left: 40px;
+    line-height: 0;
+    margin-bottom: 0px;
+    
+}
+.first-content .points {
+    padding-left: 40px;
+    padding-top: 0;
+    margin-top: 35px;
+}
+  
+.first-content .para {
+    padding-left: 40px;
+    font-size: 25.9px;
+    font-weight: 400;
+    
+}
+.download span{
+    padding-left: 40px;
+} }
+.download img {
+    width:280px;
+    display:block;
+    margin-left: auto;
+
+    height:auto;
+    margin-right: auto;
+    
+    
+   
+    
+}
+ .download{
+    text-decoration: none;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.first-content h3 {
+    font-size: 4rem;
+    font-weight: 1000;
+    color: white;
+    line-height: 0;
+    margin-bottom: 0;
+}
+.first-content .points{
+    margin-top: 35px;
+}
+.first-content .para {
+    font-size: 19px;
+    font-weight: 900;
+   
+    padding-bottom: 10px;
+}
+
+
+
+
+.head{
+    
+    background-image: url('images/4024252.jpg');
+    background-size: cover;
+    /* background:linear-gradient(to bottom right,#ef6c00,#ffca28
+,#fff176   ); */
+
+}
+.first-content{
+    height:400px;
+    margin:0;
+    padding-top:0;
+    padding:40px;
+    padding-left: 30px;
+    display: grid;
+    grid-auto-rows: max-content;
+    color: white;
+    align-items: center;
+   
+
+    
+}
+.how-it-works{
+    padding:20px;
+    padding-bottom: 0;
+    display: grid;
+    grid-row-gap:25px;
+  
+
+   
+}
+.work-division{
+
+    text-align: center;
+   border-radius: 30px;
+ 
+    
+    
+   
+    
+}
+
+@media (min-width:700px){
+    .how-it-works{
+        display: grid;
+        grid:1fr/ repeat(3,1fr);
+        grid-gap:20px;
+    }
+
+    .main-title{
+        text-align: left;
+        font-size: 70px;
+    }
+}
+.main-title {
+    color:#e65100;
+    font-size:40px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    padding-left: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.number {
+    color:#e65100;
+    border-bottom:solid 1px #e65100 ;
+    font-weight: bolder;
+    font-size: 40px;
+    display:block;
+    padding-top: 20px;
+    margin:0 auto;
+    width:50%;
+}
+
+.title{
+    color:#e65100;
+    font-size: 38px;
+    font-weight: 600;
+
+}
+
+.description{
+    color:#e65100;
+    padding:20px;
+  
+
+}
+
+.footer{
+   background-color: orange;
+  color: white;
+ font-size: 30px;
+border-top-left-radius: 45px;
+}
+
+.footer span a{
+text-decoration: none;
+font-size: 15px;
+text-align: center;
+color: white;
+padding-left: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color:white;
+}
+
+.footer-details {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding-top: 0;
+  justify-content: center;
+  
+
+}
+.footer p {
+    text-align: center;
+    padding-top: 10px;
+}
+.made-in-india{
+    font-size: 15px;
+   padding-bottom: 10px;
+    padding-top:0;
+    text-align: center;
+    display: grid;
+}  
+/* FAQ STYLE */
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+   background: #f6f6f6;
+}
+
+details summary {
+    outline:none;
+}
+.box{
+    margin:5px;
+    padding:10px;
+
+}
+.main-heading{
+    
+    display: grid;
+    grid:1fr/ max-content 1fr;
+    grid-gap:15px;
+    align-items: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.main-heading span a{
+text-decoration: none;
+color:#e65100;
+}
+.heading{
+    font-size: 30px;
+   color:#e65100;
+    margin:0;
+    font-weight: bolder;
+    padding-bottom: 20px;
+   
+}
+
+summary{
+    color:black;
+    padding:10px;
+    font-size:20px;
+}
+
+.text{
+    color:grey;
+    padding-left: 33px;
+ 
+}
+
+.form-container{
+    text-align:center;
+    padding-top: 20px;
+
+}
+.input-container{
+    display:grid;
+    grid-row-gap: 10px;
+    padding:10px;
+    align-items: center;
+    justify-items: center;
+
+}
+ .name ,.email{
+    outline:none;
+    height:30px;
+    width:220px;
+    border:none;
+
+    
+ }
+
+ .message {
+     outline:none;
+     width:220px;
+     height:90px;
+     resize: none;
+     outline: none;
+     
+ }
+textarea{
+    outline: none;
+    border: none;
+}
+ textarea:placeholder-shown {
+   font: 400 13.3333px Arial;
+   padding: 5px;
+ }
+.form-container p {
+    font-weight: lighter;
+}
+ .submit {
+     font-weight: bolder;
+     font-size: 15px;
+     border: none;
+     color:orange;
+     border-radius: 10px;
+     outline:none;
+     padding:10px;
+     background-color: none;
+ }
+
+ @media (min-width:720px){
+     .name,
+     .email,
+     .message {
+         width: 550px;
+     }
+ }
+ .mid-section{
+     display: grid;
+     justify-items: center;
+     padding:20px;
+ }
+
+.mid-section img {
+    height:300px;
+   
+}
+.section{
+    padding-left: 30px;
+}
+
+@media (min-width:568px){
+   
+     .mid-section{
+         display: grid;
+         grid:1fr/ 40vw auto;
+         padding:20px;
+    }
+  .mid-section:nth-of-type(2n){
+     direction: rtl;
+  
+  }
+  .text-section:nth-of-type(2){
+      padding-left: 40px;
+  }
+  .second{
+      direction: ltr;
+      text-align: justify;
+  }
+}
+
+.title-section{
+    color:#e65100;
+    font-weight: bold;
+    font-size: 17px;
+}
+.description-section{
+    color:gray;
+   
+    margin-right: 20px;
+    text-align: justify;
+
+}
+ .text-section{
+
+     text-align: left;
+ }
+
+
+
+
+ /* TERMS AND CONDITION STYLE */
+
+ .content {
+     margin:0 15px 15px 15px;
+     padding:0 15px 15px 15px;
+     
+ }
